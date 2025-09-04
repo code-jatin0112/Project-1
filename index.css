@@ -1,0 +1,68 @@
+.navbar {
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: #f0ebeb;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+   gap: 1rem; 
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f0ebeb;
+  text-decoration: none;
+  align-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 1rem;
+}
+header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 24, 24);
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    font-size: 1rem;
+
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2re;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    margin-top: 20px;
+    color: rgb(24, 24, 24);
+    background-color: rgb(240, 201, 166);
+    padding: 1px;
+}
+footer{
+    margin-top: 25px;
+    background-color: rgb(253, 211, 159);
+}
